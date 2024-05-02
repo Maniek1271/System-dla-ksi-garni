@@ -670,6 +670,11 @@ public class Ksiegarnia2{
                     if (ilosc != 0)
                         i.SetIlosc(ilosc);
                 }
+		catch(KsiazkaException ke){
+                    System.out.println("");
+                    System.out.println("Blad!");
+                    System.out.println("");
+		}
                 catch(EbookException ee){
                     System.out.println("");
                     System.out.println("Blad!");
